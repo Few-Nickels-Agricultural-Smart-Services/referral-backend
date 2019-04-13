@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "participants",
+  "info": {
+    "name": "participant",
+    "description": "USer participant of the referral program "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "email": {
+      "default": "",
+      "type": "string",
+      "unique": true
+    },
+    "invitation_code": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

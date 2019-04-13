@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/invitations",
+      "handler": "Invitation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/invitations/count",
+      "handler": "Invitation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/invitations/:id",
+      "handler": "Invitation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/invitations",
+      "handler": "Invitation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/invitations/:id",
+      "handler": "Invitation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "/invitations/:id",
+      "handler": "Invitation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/invitations/:id",
+      "handler": "Invitation.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

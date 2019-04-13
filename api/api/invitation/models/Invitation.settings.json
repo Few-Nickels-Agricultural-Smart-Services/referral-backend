@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "invitations",
+  "info": {
+    "name": "invitation",
+    "description": "Invitation sent from a user"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "sender_link": {
+      "default": "",
+      "type": "string"
+    },
+    "sender_msg": {
+      "default": "",
+      "type": "text"
+    },
+    "sender_name": {
+      "default": "",
+      "type": "string"
+    },
+    "receiver_id": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
